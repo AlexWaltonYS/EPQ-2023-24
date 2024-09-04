@@ -1,0 +1,5 @@
+together
+beautifulsoup4
+requests
+alpaca-trade-api
+yfinance
