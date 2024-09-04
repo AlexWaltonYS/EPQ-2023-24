@@ -171,8 +171,8 @@ print(f"{BUY2Quantity:.2f}")
 print(f"{BUY3Quantity:.2f}")
 
 import alpaca_trade_api as tradeapi
-API_KEY = "PK7ZD5RPCMB8XAUUODNB"
-SECRET_KEY = "JRua2Y9H6YEWdi70K0htkXAZrOLBHgHk1KYaO3H9"
+API_KEY = "PKUZNAFZU7Q1RL0CCIUF"
+SECRET_KEY = "S9uELBhy5Gi9l7bxMhk6dQlkV0gOoaZse6ZWYTfv"
 
 api = tradeapi.REST(API_KEY, SECRET_KEY, base_url="https://paper-api.alpaca.markets")
 
