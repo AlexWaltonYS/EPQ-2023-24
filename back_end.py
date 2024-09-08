@@ -27,7 +27,7 @@ for headline in filtered_headlines:
 
 from together import Together
 
-together_client = Together(api_key="e6ff543ed5eb9ada7e41450eb4e269fe154ffbb47da1d5c0ea0623ba494fc935")
+together_client = Together(api_key="together_api_key") #replace together_api_key with your API key from Together
 
 response = together_client.chat.completions.create(
     model="meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
@@ -177,8 +177,8 @@ print(f"{BUY2Quantity:.2f}")
 print(f"{BUY3Quantity:.2f}")
 
 import alpaca_trade_api as tradeapi
-API_KEY = "PK7ZD5RPCMB8XAUUODNB"
-SECRET_KEY = "JRua2Y9H6YEWdi70K0htkXAZrOLBHgHk1KYaO3H9"
+API_KEY = "alpaca_api_key"
+SECRET_KEY = "alpaca_secret_key" # Replace these two with your API and Secret keys from Alpaca
 
 api = tradeapi.REST(API_KEY, SECRET_KEY, base_url="https://paper-api.alpaca.markets")
 
