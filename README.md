@@ -58,3 +58,9 @@ This is now all complete and the python should be ready to run box by box, by pr
 ## Operating the front-end
 
 **The front-end displays the final state by which my project is in**
+In order to operate the back-end python code which I have provided, I have deployed the front-end onto a browser accessible page with the link here: 
+
+To begin with feel free to browse throughout the page and visit, which ever aspect of the project you wish, when you wish to start simpily hit the 'Use My EPQ' button. This button should then take you to s simpiler page, by which the user can input their own API keys (See above for tutorial on receiving these) and the desired investment value. From then on the code should execute and the investment should take place. Visiting the Alpaca webpage and logging in should verify this. **Important Note: This program will not execute before 9am and after 5pm, due to the fact that the markets close when out of these times.**
+
+Thanks for using my EPQ,
+Alex Walton
