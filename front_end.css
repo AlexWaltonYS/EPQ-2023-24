@@ -1,0 +1,266 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+h1, h2 {
+    color: #E1AD01; /* Bright Yellow */
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #222;
+}
+
+h3 {
+    color: #E1AD01; /* Bright Yellow for GitHub Subtitle */
+    font-weight: 700;
+}
+
+/* Gradient Background */
+.banner {
+    text-align: center;
+    padding: 100px 0;
+    background: linear-gradient(135deg, rgba(225, 173, 1, 1) 0%, rgba(255, 249, 227, 1) 100%);
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.banner p {
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color: #E1AD01; /* Yellow */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 30px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #cf9301;
+}
+
+.iphone-image img {
+    width: 400px; /* Slightly larger phone image */
+    margin-top: 50px;
+}
+
+/* Blob Shapes */
+.blob {
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.blob1 {
+    width: 300px;
+    height: 300px;
+    top: -50px;
+    left: -100px;
+}
+
+.blob2 {
+    width: 250px;
+    height: 250px;
+    bottom: -100px;
+    right: 100px;
+}
+
+.blob3 {
+    width: 150px;
+    height: 150px;
+    bottom: 50px;
+    left: 150px;
+}
+
+.blob4 {
+    width: 350px;
+    height: 350px;
+    top: 200px;
+    left: 50px;
+}
+
+.blob5 {
+    width: 200px;
+    height: 200px;
+    bottom: -80px;
+    right: -80px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+    background-color: #FFF3CD; /* Light Yellow */
+}
+
+.feature-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature-image-left {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.feature-image-left img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.feature-text-right {
+    flex: 1;
+    text-align: left;
+}
+
+.learn-more-btn {
+    background-color: #E1AD01; /* Yellow */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.learn-more-btn:hover {
+    background-color: #cf9301;
+}
+
+/* Self-Published Section */
+.self-published {
+    background-color: #fff7e6;
+    padding: 70px 0;
+}
+
+.self-published-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Team Section */
+.team-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.team-member img {
+    width: 150px;
+}
+
+.team-role {
+    font-weight: 700;
+}
+
+/* Tools Used Section */
+.tools-used {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tools-used h2 {
+    color: #E1AD01; /* Bright Yellow */
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.tools-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adds spacing between logos */
+}
+
+.tool-logo {
+    max-width: 60px; /* Smaller size for logos */
+    height: auto;
+}
+
+/* Yellow Lines */
+.yellow-line {
+    border: none;
+    height: 3px;
+    background-color: #fbd605; /* Bright Yellow */
+    width: 100%;
+    margin: 40px 0;
+}
+
+/* Existing button style used for "View Now" */
+.yellow-button {
+    text-decoration: none;
+    color: white;
+    background-color: #E1AD01; /* Yellow */
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.yellow-button:hover {
+    background-color: #cf9301;
+}
+
+/* Downloads Section */
+.altstore-link {
+    text-decoration: none;
+    color: white;
+    background-color: #E1AD01;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.altstore-link:hover {
+    background-color: #cf9301;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
