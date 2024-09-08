@@ -241,7 +241,7 @@ h3 {
 }
 
 /* Downloads Section */
-.altstore-link {
+.EPQ-link {
     text-decoration: none;
     color: white;
     background-color: #E1AD01;
@@ -249,7 +249,7 @@ h3 {
     border-radius: 8px;
 }
 
-.altstore-link:hover {
+.EPQ-link:hover {
     background-color: #cf9301;
 }
 
