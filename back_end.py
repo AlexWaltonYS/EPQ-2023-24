@@ -1,8 +1,9 @@
-# pip install together
-# !pip install bs4
-# !pip install requests
-# !pip install alpaca-trade-api
-# !pip install yfinance
+# (!)pip install together
+# (!)pip install bs4
+# (!)pip install requests
+# (!)pip install alpaca-trade-api
+# (!)pip install yfinance
+# (!) Exclaimation marks to be placed before the pip installs in Google Colab, then no exclaimation mark for bash consoles  
 
 import requests
 from bs4 import BeautifulSoup
