@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2 {
-    color: #E1AD01; /* Bright Yellow */
+    color: #E1AD01; 
     letter-spacing: 1px;
     font-weight: 700;
 }
@@ -26,11 +26,11 @@ p {
 }
 
 h3 {
-    color: #E1AD01; /* Bright Yellow for GitHub Subtitle */
+    color: #E1AD01;
     font-weight: 700;
 }
 
-/* Gradient Background */
+
 .banner {
     text-align: center;
     padding: 100px 0;
@@ -50,7 +50,7 @@ h3 {
 }
 
 .cta-button {
-    background-color: #E1AD01; /* Yellow */
+    background-color: #E1AD01; 
     color: white;
     padding: 15px 30px;
     border: none;
@@ -66,7 +66,7 @@ h3 {
 }
 
 .iphone-image img {
-    width: 400px; /* Slightly larger phone image */
+    width: 400px;
     margin-top: 50px;
 }
 
@@ -113,13 +113,13 @@ h3 {
     right: -80px;
 }
 
-/* Features Section */
+
 .features {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 70px 0;
-    background-color: #FFF3CD; /* Light Yellow */
+    background-color: #FFF3CD;
 }
 
 .feature-content {
@@ -144,7 +144,7 @@ h3 {
 }
 
 .learn-more-btn {
-    background-color: #E1AD01; /* Yellow */
+    background-color: #E1AD01;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -170,7 +170,7 @@ h3 {
     justify-content: space-between;
 }
 
-/* Team Section */
+
 .team-info {
     display: flex;
     justify-content: space-around;
@@ -185,7 +185,6 @@ h3 {
     font-weight: 700;
 }
 
-/* Tools Used Section */
 .tools-used {
     text-align: center;
     padding: 60px 0;
@@ -198,7 +197,7 @@ h3 {
 }
 
 .tools-used h2 {
-    color: #E1AD01; /* Bright Yellow */
+    color: #E1AD01;
     font-size: 36px;
     margin-bottom: 30px;
 }
@@ -207,28 +206,27 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Adds spacing between logos */
+    gap: 20px;
 }
 
 .tool-logo {
-    max-width: 60px; /* Smaller size for logos */
+    max-width: 60px;
     height: auto;
 }
 
-/* Yellow Lines */
+
 .yellow-line {
     border: none;
     height: 3px;
-    background-color: #fbd605; /* Bright Yellow */
+    background-color: #fbd605;
     width: 100%;
     margin: 40px 0;
 }
 
-/* Existing button style used for "View Now" */
-.yellow-button {
+ {
     text-decoration: none;
     color: white;
-    background-color: #E1AD01; /* Yellow */
+    background-color: #E1AD01; 
     padding: 10px 20px;
     border-radius: 8px;
     cursor: pointer;
