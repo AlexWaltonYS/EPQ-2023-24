@@ -158,13 +158,12 @@ h3 {
     background-color: #cf9301;
 }
 
-/* Self-Published Section */
-.self-published {
+.self-use {
     background-color: #fff7e6;
     padding: 70px 0;
 }
 
-.self-published-content {
+.self-use-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
